@@ -74,11 +74,11 @@ class TestFiles:
 
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
 
-    def test_get_file_with_incorrect_file_id(self, files_client: FilesClient, function_file: FileFixture):
+    def test_get_file_with_incorrect_file_id(self, files_client: FilesClient):
         response = files_client.get_file_api(file_id="incorrect-file-id")
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
 
-        assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_CONTENT)
+        assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
         assert_get_file_with_incorrect_file_id_response(response_data)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
