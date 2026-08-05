@@ -2,7 +2,7 @@ import pytest
 from pydantic import BaseModel
 
 from clients.exercises.exercises_client import ExercisesClient, get_exercises_client
-from clients.exercises.exercises_shcema import CreateExerciseRequestSchema, CreateExerciseResponseSchema
+from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema
 from fixtures.courses import CourseFixture
 
 
