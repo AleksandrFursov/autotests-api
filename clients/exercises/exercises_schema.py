@@ -82,4 +82,4 @@ class GetExerciseResponseSchema(BaseModel):
     """
     Описание структуры ответа на получение урока.
     """
-    exercises: ExerciseSchema
+    exercise: ExerciseSchema
