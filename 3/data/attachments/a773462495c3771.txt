@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE4VDA1OjQ4OjUyLjk4NTM3OCIsInVzZXJfaWQiOiI3ZTAxYTA4Ny1lMjI0LTRjOTYtYmYxNS1jYjllMmZlMjBmOTYifQ.bAndlHIDbs8fQtARRacNCDfbZJBLKMr7i7Qscw-CJqM' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Position offer audience film by notice project.","maxScore":84,"minScore":28,"description":"East land still offer whose town. Gun own seem. Population role serious answer full fine pass.\nProfessional blood far data would the good. But product door he get by.","estimatedTime":"4 weeks","previewFileId":"3c174310-23ba-4d68-91c9-4111f11031a8","createdByUserId":"7e01a087-e224-4c96-bf15-cb9e2fe20f96"}'

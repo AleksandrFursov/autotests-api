@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE4VDA1OjQ4OjU1LjA0MTQ2OCIsInVzZXJfaWQiOiI5MzJjOTg4OS01YmZlLTQ2ZDYtOWM1Zi00NDRjYjYxNDgxNDIifQ.t5xAxHysrkI4ODI_yePd8g60h7rYmT7VnXErBum_br8' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Chair fear media effect could production.","maxScore":99,"minScore":13,"description":"According wear experience police sort then his. Rock current democratic attorney beat program this.\nAddress include stage off able. Order security low hour.","estimatedTime":"10 weeks","previewFileId":"caa41183-c8f5-4632-9e27-f5966cdd98f0","createdByUserId":"932c9889-5bfe-46d6-9c5f-444cb6148142"}'

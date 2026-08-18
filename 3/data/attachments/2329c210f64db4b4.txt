@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE4VDA1OjQ4OjUzLjY5MDc2MSIsInVzZXJfaWQiOiJjZGY4ZjJmNC02OGU4LTQ4MGMtOWE5Yy03MzlhZDUxYmNlY2UifQ.wxIADx4AgzYRvBmQDXrCxyqlkN2bpMBc0IZyuFiZ7nM' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Toward such sister alone still job no.","maxScore":51,"minScore":18,"description":"Once something important relate before opportunity. Threat effort imagine wide help major.","estimatedTime":"6 weeks","previewFileId":"ccf61579-f3e2-4563-95ed-fc7d37a90801","createdByUserId":"cdf8f2f4-68e8-480c-9a9c-739ad51bcece"}'

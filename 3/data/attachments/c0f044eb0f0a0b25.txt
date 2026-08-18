@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/79c7dbdb-483d-4cbf-9d95-232838bbe2c5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE4VDA1OjQ4OjUyLjAzNzI4OSIsInVzZXJfaWQiOiIzNTc1ZWM4Zi02YTY2LTRhYmYtYmE0My1mMThkN2IwNTFlODAifQ.M984FCX5w2rpjk4FVNKSxiFenwyyCNWzsGp1FC7x9a8' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"However fight space special tend decide his.","maxScore":90,"minScore":27,"description":"Computer approach get campaign these although federal. Space though society imagine arrive open energy keep. Network middle your stand street watch serious. Sit argue vote form spend.","estimatedTime":"6 weeks"}'
