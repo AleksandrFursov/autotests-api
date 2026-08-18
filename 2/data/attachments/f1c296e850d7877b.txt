@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE4VDA1OjQwOjAzLjg3ODYzNCIsInVzZXJfaWQiOiJjNWEyODViZi01Y2M4LTQ3MzktOTNkYy0wOWJkNWZkNDg3MzIifQ.CcOTwFNlu6FxTJK_Gh__xFmKMCD9OtZOcmyfXiAqBy0' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"As officer teach understand her.","maxScore":80,"minScore":22,"description":"Commercial fine light born. Per participant computer. Offer know produce five.\nOff room thank school soldier surface. Message direction performance nature either. Check add world foreign tell view.","estimatedTime":"8 weeks","previewFileId":"41ffa194-0128-40d6-a356-623aa082c245","createdByUserId":"c5a285bf-5cc8-4739-93dc-09bd5fd48732"}'

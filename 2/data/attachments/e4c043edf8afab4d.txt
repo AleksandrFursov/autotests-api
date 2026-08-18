@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE4VDA1OjQwOjA2LjE4NjA2MiIsInVzZXJfaWQiOiJmYTE3YTVjZS04MTc0LTQ5YWItYjFkNy02NjdiYmJhY2IxNjMifQ.xY53BpnGGlw8kw5O-1qIwJB9XcnJ5lBybYqIpomneTo' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Industry ask believe particularly develop establish.","maxScore":88,"minScore":16,"description":"Certain student threat court. Season along partner fill trial traditional seven. Network degree nearly concern daughter about.","estimatedTime":"6 weeks","previewFileId":"9cf828be-aac1-4b5a-ac6b-9cacb23d17d5","createdByUserId":"fa17a5ce-8174-49ab-b1d7-667bbbacb163"}'

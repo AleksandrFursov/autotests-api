@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE4VDA1OjQwOjA3LjM4MTMxNiIsInVzZXJfaWQiOiI3ZDY3ZjEzZS0wZGRlLTQ0MTEtYTUxMy1lZDhjNzM2ZDI4ZGMifQ.GhCL2vtETwiXTo5UIHA-MTfSY4tArs93-ILvfkz-bQU' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Life contain station enjoy sure provide.","maxScore":70,"minScore":12,"description":"Practice military parent trade condition. Also hot there technology organization.\nName market social daughter shake benefit. Physical fear rise loss site. Dark south his protect certainly fish we.","estimatedTime":"6 weeks","previewFileId":"17e4b60e-014e-49ab-98e3-0cec04443545","createdByUserId":"7d67f13e-0dde-4411-a513-ed8c736d28dc"}'
