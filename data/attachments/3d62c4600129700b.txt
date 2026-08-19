@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjM1OjM1LjM3ODY2MSIsInVzZXJfaWQiOiJkZmQyZWNiMy0zYWJkLTQwMWItOWJkMi02MDcxYWU0ODFmYmMifQ.YYgYXOTqQuRLr2MvD2uvQ3Mu4UUdjZtSwBk3ZwqYs0g' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Present still western purpose when item ask.","maxScore":66,"minScore":7,"description":"The firm civil pressure song old happy. These sense season.\nDevelop born near window foreign. Us us at medical level go religious. However ten usually arm nature police rock someone.","estimatedTime":"4 weeks","previewFileId":"21bd61b6-1cbd-406d-80d1-16550995a12a","createdByUserId":"dfd2ecb3-3abd-401b-9bd2-6071ae481fbc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjM1OjM0LjI1ODE1MSIsInVzZXJfaWQiOiIzOTJlOGE1NC01ZGZjLTRlMzUtOWEyNy03MzQwY2E4ZDVhYmYifQ.joBAJHcSTs8bvqHiALroxgRj2dabdyidnLAypvRtqbY' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Writer behind glass reflect subject.","maxScore":55,"minScore":9,"description":"Detail remember policy oil executive police. Chance change value industry different card.\nCoach sell speak feeling group issue. Return dinner wide pressure man media.","estimatedTime":"1 weeks","previewFileId":"aa421e28-03f8-4458-88ee-fa0f0b894f6b","createdByUserId":"392e8a54-5dfc-4e35-9a27-7340ca8d5abf"}'
