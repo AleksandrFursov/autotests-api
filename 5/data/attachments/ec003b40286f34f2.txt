@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjI5OjI1LjA1NTM0MSIsInVzZXJfaWQiOiI2ZGI5MTk1My05NWYxLTQ3MmYtOTc1Mi1hM2FhMDlhMDQyZTAifQ.ANvhLKxFq2Loc5xvTC9pmRAuD0Hmyuws8GjWohsdQTM' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Including chair according.","maxScore":99,"minScore":6,"description":"Happen important partner answer represent we shoulder. Whether day strategy want generation low.\nSuccessful beat space south.","estimatedTime":"10 weeks","previewFileId":"611e777c-0094-49da-b665-837745d933b8","createdByUserId":"6db91953-95f1-472f-9752-a3aa09a042e0"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjI5OjIzLjQ1ODY4NSIsInVzZXJfaWQiOiI2MzNlOTQzYy01MmQ0LTQ4ZDMtOWE4MS02YWM3NzUwN2FkNmUifQ.jIiAFJN0c_gH4F-4234ju1S0KFtNoRO9lYhVXwpjRMc' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Law party must society draw model remain.","maxScore":66,"minScore":23,"description":"Media money serve likely. Attack teacher question movie provide feel answer. Democratic work upon.\nLife TV close let break doctor billion. Indicate marriage together quite relate public data.","estimatedTime":"9 weeks","previewFileId":"0740a1c2-f404-48d3-ac8b-a32e098a71b9","createdByUserId":"633e943c-52d4-48d3-9a81-6ac77507ad6e"}'

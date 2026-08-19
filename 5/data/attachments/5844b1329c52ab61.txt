@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjI5OjI0LjUxMzA3NSIsInVzZXJfaWQiOiIxMmMyOWVkMC1lNzRmLTRjZTAtODVmZi01OWQ0ODBhMTJhMWMifQ.f7i61_vLBWDS4VmzCt0pzSLuFMvD9N3GiNxySeLrGvA' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Area general argue energy hand feel.","maxScore":65,"minScore":1,"description":"To standard reveal question thousand use. Back look necessary ok lawyer institution instead many.\nArt treat raise race. Nothing allow onto especially organization.","estimatedTime":"7 weeks","previewFileId":"f9dea3d9-45e2-49f7-a2e1-9de9db01b0a8","createdByUserId":"12c29ed0-e74f-4ce0-85ff-59d480a12a1c"}'
