@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d9623512-9eff-498b-9bb9-6138c989edc0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjMwOjQyLjI3NTU4NyIsInVzZXJfaWQiOiIzMzc5N2FiYy1jNTRlLTQzMzAtODY4Yy05OWYxZjU5MDA5YTMifQ.USjyrihpuU0ckUgdn-1R4GLrY1cnqXxkrI_3dg7VFkk' \
+  -H 'content-length: 279' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Coach money better share.","maxScore":58,"minScore":22,"description":"Example issue few authority section. Over group carry window.\nAgent election claim civil forget. Leave staff Mrs. Understand everyone clear power however money note fire.","estimatedTime":"1 weeks"}'

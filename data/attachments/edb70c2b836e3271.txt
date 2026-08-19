@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjMwOjQzLjE5NjgyMiIsInVzZXJfaWQiOiI4ZGMwZWJlMS1hZDU1LTQwMDgtOWFkZC1hYmNlYTUyZDUxNzgifQ.BqhuLbwSjH8UBv6FbV8LCEhcPd86GlsXYW7sEPmtAv4' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Protect including its laugh as reveal.","maxScore":82,"minScore":20,"description":"Along product opportunity herself democratic. Soon back build call go.\nService fast crime.\nArea amount daughter table TV. Hospital site himself.","estimatedTime":"6 weeks","previewFileId":"71794067-c759-4c47-bed3-318a2f1248a5","createdByUserId":"8dc0ebe1-ad55-4008-9add-abcea52d5178"}'

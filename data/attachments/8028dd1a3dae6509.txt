@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjMwOjQ2LjEyMzY5MSIsInVzZXJfaWQiOiI2NjM3NmZmOS1jZWJkLTRmZTctOTQ2ZC1kZmUxZWE3YmZjNGQifQ.OlSL8AHdooSgD-S0zSxx76D2rOzSQWhSsIUx8H7EHKE' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Room popular recognize probably around change soon return.","maxScore":74,"minScore":12,"description":"Father coach region social school professor. Avoid brother official. See line force no audience whose half.","estimatedTime":"7 weeks","previewFileId":"1926a2e4-a598-4ae4-8caa-27de77f18229","createdByUserId":"66376ff9-cebd-4fe7-946d-dfe1ea7bfc4d"}'

@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:86 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to When behind truth style.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 78
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 12
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Media different weight most ten.
+Section after dream too body allow. Always then piece crime. Suggest goal sign section possible may.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 79942361-228f-460e-a630-73210adb3868
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to d92b0aef-1b96-428d-89e1-d2309c5699fb
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
