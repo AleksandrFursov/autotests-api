@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjI4OjQ2LjEwNzg5OCIsInVzZXJfaWQiOiIxZjhhNGQyOS05YzAxLTRmOWMtODM3YS00OGUzMmJlYzIyYmUifQ.KYSYGndXwlKPbhLQa3pH6PglBWWG8fWC1LiGC0tggbk' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drive lawyer experience worry forward chair southern.","maxScore":98,"minScore":2,"description":"Follow prevent politics range nearly. Around rather same Mrs. Task could market trip effort.\nUsually strong language high carry blue day soldier. Key health ground well similar.","estimatedTime":"10 weeks","previewFileId":"4538fb07-8084-46a4-a809-2cf59f307334","createdByUserId":"1f8a4d29-9c01-4f9c-837a-48e32bec22be"}'

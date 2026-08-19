@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjI4OjQ5LjA4MDYyMSIsInVzZXJfaWQiOiJjZjE3NzE4ZS1jZDQ0LTQxNGYtODM5Ni04Y2VhYjA3MTY2ODIifQ.3ZcXPBafuGKAFywOc9Af0f3QeWFyMtE6cWMlS626jrE' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Create maybe improve write.","maxScore":60,"minScore":15,"description":"Night international prevent official. Only letter wind themselves stock most prove.\nTheir like prove decade level ago. Physical popular become style speech much attorney.","estimatedTime":"8 weeks","previewFileId":"fcfff0ed-8ee7-4def-b1d8-a8bc2e837b32","createdByUserId":"cf17718e-cd44-414f-8396-8ceab0716682"}'

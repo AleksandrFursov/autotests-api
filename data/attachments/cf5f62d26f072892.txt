@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8f813512-0ee1-4e0e-b0cb-4ff5998188ed' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjI4OjQ1LjA3NTU4NiIsInVzZXJfaWQiOiI3ZGNhMTE0Ni05MDg5LTQ1ZDItYmVhNi1lMTQ1MjczOThhMmEifQ.RGNpeWzYx1ZV_kjk1nPjnGaEqyela91u3qv4Bucvgiw' \
+  -H 'content-length: 280' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Federal issue wait later.","maxScore":76,"minScore":15,"description":"Congress seven teacher prevent wrong student every. Such development teach nation give want.\nRoom civil sign color nearly either. Even guess government pay education join.","estimatedTime":"3 weeks"}'

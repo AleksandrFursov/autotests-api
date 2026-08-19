@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjI4OjUwLjQxMzE2NiIsInVzZXJfaWQiOiI3OGIwMTY2MC01Nzg2LTRiZWUtYWQ2Zi1mZGNmZTA3Yjk5MDAifQ.NqC4FuixSO2yZdadaKS5Cl6zqng9YoCBCt81kvVgmGA' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Claim go manage away several body to.","maxScore":97,"minScore":27,"description":"Represent author price official coach learn. Off build among reason while class start gun. Actually push more toward decide himself large.","estimatedTime":"4 weeks","previewFileId":"0cdc1dd4-3d20-41f6-a686-13df8aae9559","createdByUserId":"78b01660-5786-4bee-ad6f-fdcfe07b9900"}'

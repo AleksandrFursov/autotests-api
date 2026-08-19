@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjI4OjQ4LjA2MDIyNCIsInVzZXJfaWQiOiI0ZmVkNDJkZi1hNWE5LTQ3MTctYjExZS1iZTg3ZWQxNGZmYWMifQ.p_pAk8S0wau0nLinIAMlSPos9mTQcJdt2XNyYFUGC-A' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soldier send without.","maxScore":59,"minScore":15,"description":"Put marriage sell end might blood health. Pretty development choose interview. Action what may analysis big.","estimatedTime":"6 weeks","previewFileId":"dec99583-a0c2-41ad-8cb0-37a59d28d9ae","createdByUserId":"4fed42df-a5a9-4717-b11e-be87ed14ffac"}'

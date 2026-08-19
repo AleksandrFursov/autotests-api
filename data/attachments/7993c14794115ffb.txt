@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjI4OjQ3Ljc1MTQwNyIsInVzZXJfaWQiOiI3NzgxZDBkNi05ZWVlLTRiMTgtYjRjNC1mNmM0N2E0MDhlZTMifQ.3TbsO09RaXtkK4IYTSxZZPg-QWL1-gLCUP_wafn9K6M' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Address protect if attack.","maxScore":94,"minScore":20,"description":"Along compare tonight change body nation radio wear. Keep close discussion consumer almost admit.","estimatedTime":"10 weeks","previewFileId":"33a28131-cb3c-440e-89c3-d63611d2ee1e","createdByUserId":"7781d0d6-9eee-4b18-b4c4-f6c47a408ee3"}'
