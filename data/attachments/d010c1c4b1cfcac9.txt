@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjM1OjM3LjQ5NDg0NCIsInVzZXJfaWQiOiIzZmY5ZDljOC0xZDIxLTQ4M2EtOGU4OS04MDUwZGI2ZDA2OGYifQ.N68gyfL0Ka18VMR-oftyIWg1XhrvCS4L6NX2_8vdSr4' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"In share several those relate hotel chair.","maxScore":96,"minScore":4,"description":"Wonder game strategy marriage front model.\nEvent night manager thousand discussion. Worker loss this close could. Could four expect mind town. Draw edge inside eye memory today such.","estimatedTime":"3 weeks","previewFileId":"bb3fed29-26b7-4a67-a1de-18d690c00ec8","createdByUserId":"3ff9d9c8-1d21-483a-8e89-8050db6d068f"}'

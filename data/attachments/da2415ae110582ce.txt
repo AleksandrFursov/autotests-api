@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjM1OjM1Ljk1Mjg0MCIsInVzZXJfaWQiOiJhYWExYjIzYi1lNDU2LTQ5MmQtOTYxZC00NTlmNmE0YWMyYzIifQ.ViopQl3sSdfFFEzR1mWBJsG2w2eSS_HfGkVmo4yorhA' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Government capital yard.","maxScore":54,"minScore":18,"description":"How half face run necessary five. Former six reality worker who. Lawyer thousand business ground.\nGo hour sound present at manager.","estimatedTime":"6 weeks","previewFileId":"9644a805-70a9-4780-8de4-dad74f5cc460","createdByUserId":"aaa1b23b-e456-492d-961d-459f6a4ac2c2"}'

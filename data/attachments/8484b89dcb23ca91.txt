@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjM1OjM4LjY3NDQ2NyIsInVzZXJfaWQiOiI1OTZhNDZiYi01YTczLTQyMjgtOTkzYy1mYTliMzE2ZGI4ODIifQ.w-pUuBRb7IF_DzknMs1BiHREMr5MI1uRHMTCn-FfsMo' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yard investment whole.","courseId":"b0e6fbf8-6fc0-4068-ad37-8c318dd2ba14","maxScore":90,"minScore":24,"orderIndex":39,"description":"Together guy small effort ten.\nSmall sell many hit fast. Around energy young democratic drive there less nothing.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjM1OjQwLjE2MDIyNiIsInVzZXJfaWQiOiI2NDJhODI2OS1kNzQ1LTQ3MzMtOGZlNS04ZWZjYWRjZTQ3MTEifQ.cvS4Kbs3vQ4ThOYUbk5mxFz0LLSgSERbWW97XnGKxts' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Notice suffer where.","maxScore":86,"minScore":29,"description":"Sit room board letter especially understand. Play south modern speak anything too. Well red month rock go sport indicate beyond.","estimatedTime":"8 weeks","previewFileId":"c02b38a0-128f-4288-a895-06c97e7e7611","createdByUserId":"642a8269-d745-4733-8fe5-8efcadce4711"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjM1OjM3Ljc2ODc5OSIsInVzZXJfaWQiOiI2ZjM2OTg5Ny0wMzlhLTRkMjctOTJmMS0zYWQ4MDE3NjI5NjAifQ.pIlpQmq2Ps4VfZQnKo5XNY2XhBjBEkCvWuuf483rEiQ' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agree street treat suggest throughout behind.","maxScore":59,"minScore":8,"description":"Public change agency firm. Trial door nice store break computer. Off season different fear million. Exactly glass fill candidate board letter let.","estimatedTime":"4 weeks","previewFileId":"42f97133-d2de-443c-ab97-cd69e31d2b9e","createdByUserId":"6f369897-039a-4d27-92f1-3ad801762960"}'

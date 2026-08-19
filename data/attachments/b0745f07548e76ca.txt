@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjM1OjM4LjY3NDQ2NyIsInVzZXJfaWQiOiI1OTZhNDZiYi01YTczLTQyMjgtOTkzYy1mYTliMzE2ZGI4ODIifQ.w-pUuBRb7IF_DzknMs1BiHREMr5MI1uRHMTCn-FfsMo' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Certain according value instead.","maxScore":72,"minScore":19,"description":"Measure including window late. Everyone fall week hospital everybody. Environmental professor real shoulder participant.","estimatedTime":"3 weeks","previewFileId":"de6d9a05-badb-4c56-a534-cbfc8ac9bf7b","createdByUserId":"596a46bb-5a73-4228-993c-fa9b316db882"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE5VDEwOjM1OjM4Ljk0ODU5NyIsInVzZXJfaWQiOiI5MGNiZGNmYy1lODAxLTRjMmMtYTU3OS05M2YzMjg4NmQ0ZDUifQ.cIGATr-3nfOA_p99kfXyW39r68-FqKL6opoL2eyu_k8' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rich point possible.","maxScore":97,"minScore":23,"description":"Expect dream business even. View party off order now. Drug suggest entire Republican stop explain big.\nArticle catch after prevent hundred. Above certainly every pay without.","estimatedTime":"9 weeks","previewFileId":"843c52b3-9f74-430f-8980-11169805f3f4","createdByUserId":"90cbdcfc-e801-4c2c-a579-93f32886d4d5"}'
