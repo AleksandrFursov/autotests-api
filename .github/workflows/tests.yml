@@ -97,12 +97,15 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      - name: Generates Allure Report with history
-        uses: simple-elf/allure-report-action@v1.15
+      - name: Generate Allure report with history
         if: always()
-        with:
-          allure_results: allure-results
-          allure_history: allure-history
+        run: |
+          if [ -d gh-pages/last-history ]; then
+            mkdir -p allure-results/history
+            cp -r gh-pages/last-history/. allure-results/history
+          fi
+          npm install --global allure-commandline@2.34.1
+          allure generate allure-results --clean -o allure-history
 
       - name: Deploy report to Github Pages
         if: always()
